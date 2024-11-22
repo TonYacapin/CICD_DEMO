@@ -1,0 +1,85 @@
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Main container */
+.app-container {
+  max-width: 1000px;
+  margin: 20px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 30px;
+}
+
+.info p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 1rem;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.card {
+  background-color: #f0f8ff;
+  border: 1px solid #d1e7ff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+.credits {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #555;
+}
+
+.credits strong {
+  color: #007bff;
+}
